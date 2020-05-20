@@ -97,9 +97,11 @@ ul {
 }
 
 .wrapper-list2 {
-  width: 320px;
+  width: 60%;
   margin: auto;
   text-align: left;
+  word-wrap: normal;
+  max-width: 320px;
 }
 
 /*This code is to create buttons for my links at the end of the page*/
