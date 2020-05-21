@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+Chettan+2&family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Baloo+Chettan+2&family=Pacifico&displayfamily=Play&display&family=Dancing+Script:wght@600;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -53,6 +53,10 @@ h2 span {
   padding-right: 10px;
   padding-left: 10px;
 }
+main h1 {
+  font-family: "Pacifico", cursive;
+  color: rgba(179, 204, 140);
+}
 
 h3 {
   font-family: "Baloo Chettan 2", cursive;
@@ -66,6 +70,10 @@ ul {
   font-family: "Baloo Chettan 2", cursive;
   font-style: oblique;
   list-style: circle inside none;
+}
+ol {
+  font-family: "Baloo Chettan 2", cursive;
+  font-style: oblique;
 }
 
 .text-centered {
@@ -100,7 +108,7 @@ ul {
 .btn {
   display: inline-block;
   font-family: "Baloo Chettan 2", cursive;
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 10px;
@@ -109,4 +117,17 @@ ul {
   color: rgb(231, 240, 239);
   background-color: rgba(179, 204, 140);
   border-color: rgba(179, 204, 140);
+}
+
+a:link {
+  color: rgb(240, 247, 244);
+}
+a:visited {
+  color: rgb(94, 47, 47);
+}
+a:hover {
+  color: rgb(23, 156, 134);
+}
+a:active {
+  color: rgb(230, 210, 39);
 }
