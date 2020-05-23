@@ -96,6 +96,15 @@ ol {
   height: 300px;
   width: auto;
 }
+/*borders for octocat image and map*/
+a img {
+  border: 4px inset;
+  border-color: rgb(51, 179, 157);
+}
+
+main iframe {
+  border: 4px inset;
+}
 
 /*This is the container for my lists*/
 .wrapper-list {
